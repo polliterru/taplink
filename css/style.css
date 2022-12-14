@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'Inter';
+  font-weight: 400;
+  padding: 30px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.page-wrapper {
+  max-width: 370px;
+  margin: auto;
+  background: #F8F8F8;;
+  box-shadow: 0px 0px 30px rgba(198, 198, 198, 0.25);
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;
+}
+
+.content-wrapper {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.header {
+  position: relative;
+  color: white;
+  padding: 40px 42px 142px;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 0px 50px 50px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.header:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.33);
+  z-index: 10;
+}
+
+.header-content {
+  position: relative;
+  z-index: 20;
+}
+
+.hello {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.hello-text {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.user {
+  position: relative;
+  margin-top: -70px;
+  text-align: center;
+  z-index: 30;
+}
+.user-content {
+  padding: 45px 70px 12px;
+}
+
+.user-avatar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ffffff;
+  z-index: 30;
+}
+
+.user-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.user-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6B6B6B;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.social {
+  margin-top: 20px;
+}
+.social-content {
+  padding: 20px;
+}
+.social-content a {
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.social-link-vk {
+  background-color: #0077FF;
+}
+.social-link-tg {
+  background-color: #0088CC;
+}
+.social-link-yt {
+  background-color: #ff1100;
+}
+.social-link-gt {
+  background-color: black;
+  min-width: 260px;
+  gap: 10px;
+  color: #F2F2F2;
+  font-size: 12px;
+}
+
+.social-link-hh {
+  background-color: #d6001c;
+  min-width: 260px;
+  gap: 10px;
+  color: #F2F2F2;
+  font-size: 12px;
+}
